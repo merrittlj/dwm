@@ -8,11 +8,11 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Liberation Mono:size=10" };
 static const char dmenufont[]       = "Liberation Mono:size=10";
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#005577";
+static const char col_gray1[]  = "#111111"; /* background */
+static const char col_gray2[]  = "#595959"; /* border normal (bright black) */
+static const char col_gray3[]  = "#ffffff"; /* foreground - pure white */
+static const char col_gray4[]  = "#ffffff"; /* foreground selected */
+static const char col_cyan[]   = "#005f88"; /* muted blue for selected state */
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },

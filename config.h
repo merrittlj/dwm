@@ -61,7 +61,7 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "st", NULL };
-static const char *browscmd[] = { "chrome", NULL };
+static const char *browscmd[] = { "firefox", NULL };
 // static const char *brightcmds[2][4] = {{"brightnessctl", "s", "+5%", NULL},{"brightnessctl", "s", "5%-", NULL}};
 static const char *brightcmds[2][4] = {{"light", "-A", "5", NULL},{"light", "-U", "5", NULL}};
 
